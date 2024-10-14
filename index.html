@@ -35,6 +35,7 @@
                         'color-brown': '#B68C5A',
                         'color-gray': '#707070',
                         'color-gray-1': '#F3F3F3',
+                        'color-gray-2': '#CFCFCF',
                         'color-light-gray': '#E7E7E7',
                         'color-light-gray-1': '#A0A0A0',
                         'color-light-black': '#414040',
@@ -444,7 +445,9 @@
                         <textarea name="" id="" placeholder="Your Message"
                             class="text-base font-normal font-poppins text-color-gray bg-color-gray-1 w-full px-3 py-5 border-none"
                             rows="5"></textarea>
-                            <button type="submit" class="btn font-poppins md:text-lg  md:font-semibold text-white bg-color-brown border-none w-full">Send Message</button>
+                        <button type="submit"
+                            class="btn font-poppins md:text-lg  md:font-semibold text-white bg-color-brown border-none w-full">Send
+                            Message</button>
                     </form>
                 </div>
             </div>
@@ -452,8 +455,55 @@
 
     </main>
     <!-- footer -->
-    <footer>
+    <footer class="bg-[#111] text-base-content mt-32 py-28 px-5">
+        <div class="container mx-auto lg:px-24 flex gap-6 flex-col md:flex-wrap lg:flex-row">
+            <nav class=" flex-1">
+                <div class=""><img src="/images/logo.png" alt=""> </div>
+                <p class="text-base font-normal font-poppins text-color-gray-2 mt-7">There are many variations of
+                    passages of
+                    Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.</p>
+            </nav>
+            <nav class="flex-1">
+                <h6 class="text-2xl font-extrabold font-eb-garamond text-white">Usefull Link</h6>
+                <div class="flex flex-col space-y-3 text-base font-normal font-poppins text-color-gray-2 mt-7">
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Cases</a>
+                    <a class="link link-hover">Blog</a>
+                    <a class="link link-hover">Contact Us</a>
+                </div>
+            </nav>
+            <nav class="flex-1">
+                <h6 class="text-2xl font-extrabold font-eb-garamond text-white">Contact Now</h6>
+                <div class=" space-y-2 text-base font-normal font-poppins text-color-gray-2 mt-7">
+                    <p>
+                        555 4th 5t NW, Washington <br>
+                        DC 20530, United States
+                    </p>
+                    <p>
+                        +88 01750 000 000 <br>
+                        +88 01750 000 000
+                    </p>
+                    <p>
+                        info@gmail.com <br>
+                        info@gmail.com
+                    </p>
+                </div>
+            </nav>
+            <form class="flex-1">
+                <h6 class="text-2xl font-extrabold font-eb-garamond text-white">Subscribe</h6>
+                <p class=" space-y-2 text-base font-normal font-poppins text-color-gray-2 mt-7">
+                    Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
 
+                <div class="mt-6">
+                    <input type="email" placeholder="Email Address" class="bg-white w-64 h-12 p-4 relative" />
+                    <button type="submit" class="btn absolute text-white bg-color-brown border-none rounded-l-none w-14 h-auto -ml-4">
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </button>
+                </div>
+
+            </form>
+        </div>
     </footer>
 </body>
 
